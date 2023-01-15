@@ -1,0 +1,129 @@
+
+
+
+.company_content {
+  
+    align-items: center;
+    /* background-color: #282c34; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.form {
+
+    /* background-color: #fffffd; */
+    border: 1px solid #282c34;
+    border-radius: 7px;
+    color: #151515;
+    overflow-y: auto;
+    width: 550px;
+
+}
+
+.title {
+
+    background-color: #151515;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: #fffffd;
+    font-size: calc( 15px + 2vmin );
+    margin: 0;
+    padding: 7px;
+    text-align: center;
+
+}
+
+.groups {
+
+    background-color: rgb(252, 252, 252);
+    border: 1px solid #fffffd;
+    height: fit-content;
+    width: 100%;
+
+}
+
+.group_button {
+
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+
+}
+
+.row {
+
+    display: flex;
+    padding: 0 4px;
+    
+}
+
+.col {
+
+    padding: 4px 2px;
+    width: 50%;
+
+}
+
+.col label {
+
+    display: block;
+
+}
+
+.col .control {
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    margin: 3px 0;
+    padding: 7px;
+    width: calc( 100% - 20px );
+
+}
+
+.btn_Save, .btn_NotSave {
+
+    background-color: #fffffd;
+    border: 1px solid #ebebeb;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 700;
+    margin: auto 3px;
+    padding: 7px 12px;
+    transition: 0.17s ease;
+    width: 110px;
+
+}
+
+    .btn_Save {
+
+        background-color: #30d31a;
+
+    }
+
+    .btn_NotSave {
+
+        background-color: #d31a1a;
+        color: #fffffd;
+
+    }
+
+.btn_Save:hover {
+
+    background-color: #239913;
+
+}
+
+.btn_NotSave:hover {
+
+    background-color: #911010;
+    color: #fffffd;
+
+}
+
+

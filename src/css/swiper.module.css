@@ -1,0 +1,29 @@
+
+
+
+.go {
+
+    background-color: #d8d8d8;
+    border: 1px solid #d8d8d8;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: auto 3px;
+    padding: 7px 12px;
+    transition: 0.17s ease;
+
+}
+
+.go:hover {
+
+    background-color: #bababa;
+    border: 1px solid #bababa;
+
+}
+
+.swiper-wrapper {
+
+    height: fit-content;
+
+}
+
+

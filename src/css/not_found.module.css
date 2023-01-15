@@ -1,0 +1,17 @@
+
+
+
+.not_found {
+  
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    font-size: calc( 17px + 2vmin );
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+

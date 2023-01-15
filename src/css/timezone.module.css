@@ -1,0 +1,23 @@
+
+
+
+.timezone_content {
+  
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    font-size: calc( 10px + 2vmin );
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.timezone_content .timezone_value {
+
+    font-style: italic;
+
+}
+
+
